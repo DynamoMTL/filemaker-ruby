@@ -25,6 +25,7 @@ module Filemaker
         :begins_with,
         :ends_with,
         :not,
+        :all,
         :where, to: :criteria
 
       def criteria

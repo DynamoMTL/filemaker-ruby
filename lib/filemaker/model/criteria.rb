@@ -82,7 +82,6 @@ module Filemaker
           resultset = klass.api.query(selector, options)
         else
           # Use -findall
-          limit(1) unless limit?
           resultset = klass.api.findall(options)
         end
 
